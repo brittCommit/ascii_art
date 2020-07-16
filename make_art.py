@@ -7,14 +7,14 @@ class Canvas:
         -height(int): The height of the canvas
     """
     
-    def __init__(self):
+    def __init__(self, width = 10, height = 10):
         """Initialize a canvas
         Return: None
         """
 
         self.elements = []
-        self.width = 10
-        self.height = 10
+        self.width = width
+        self.height = height
 
     def add(self, shape):
         """Add a shape to the canvas.
