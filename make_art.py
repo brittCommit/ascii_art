@@ -105,4 +105,11 @@ class Rectangle(Shape):
         Return:
             None
         """
-        #Todo
+
+        if axis == 'x':
+            self.start_x = self.start_x + num
+            self.end_x = self.end_x + num
+        elif axis == 'y':
+            self.start_y = self.start_y + num
+            self.end_y = self.end_y + num
+        
